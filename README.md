@@ -277,3 +277,6 @@ cmdenwikipedia book
 and you will see the definition of book from wikipedia.
 
 You can test your updated commands at https://beta.ceyd-a.com
+
+![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/cmdenwikipedia_test.png?raw=true)
+
