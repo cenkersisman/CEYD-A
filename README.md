@@ -5,12 +5,13 @@ CEYD language (Cenker.com Artificial Intelligence Language), is a scripting lang
 Users can write and develop this script language so that they can use the compiled script in various platform afterwards. 
 
 CEYD language functions are written inside pure text formatted answers and these functions determine how robot should respond to the question. CEYD functions are not required to be included in the answer.  They are used for functionality and productivity of the answer.
-#What is CEYD-A
+# What is CEYD-A
 CEYD-A is the official assistant of CEYD language. It is currently supported in Android platform and can be downloaded from Google Play Store. It has more than <b>2.2 million users in Turkey</b> and will spread worldwide soon
-#What is the use of this API ?
+# For Developers
+## Webservice API
 As of August 2017, CEYD-A contains more than <b>300.000 commands</b> created by <b>200.000 developers</b>. These developers generally create commands orally using CEYD-A application. Commands can also be created in written form for more complicated usage. 
 You may assume CEYD-A as a voice enabled semantic search engine which answers your questions. So the use of this API, is to get the answer of your question.
-#Sample usage of this API
+### Sample usage of this API
 You can set the following POST parameters as
 
   "username": "test",
@@ -31,31 +32,31 @@ When you call this service, you can expect the following response
   
   "answer": "Zafer Bayramı 30 Ağustos 2017,Çarşamba"
   
-#Is this service free ?
+### Is this service free ?
 You can use this service freely provided that your quota will not be exceeded. If you use this service for academic purposes, you may ask for free usage.
 
-#What is my token for my account ?
+### What is my token for my account ?
 Please login <a href="https://beta.ceyd-a.com/">https://beta.ceyd-a.com/</a> . After login, you will see your username and token info as well as your current quota.
 Your login information is the same as your CEYD-A account. You can take free support from https://ceyd-a.net/
-#How can I create my own custom commands ?
+## How can I create my own custom commands ?
 Commands can be created freely at:
 
 <a href=https://kodla.ceyd-a.com>https://kodla.ceyd-a.com</a> 
 
-#Where can I find a command sample which fetches data from a remote web service ?
+## Where can I find a command sample which fetches data from a remote web service ?
 This example shows how to fetch json data from remote server using CEYD language:
 
 <a href="https://en.ceyd-a.com/2016/10/json-web-servislerinden-bilgi-cekme/">https://en.ceyd-a.com/2016/10/json-web-servislerinden-bilgi-cekme/</a>
-#Where can I find more command samples ?
+## Where can I find more command samples ?
 <a href="https://en.ceyd-a.com/category/ozel-komutlar/">https://en.ceyd-a.com/category/ozel-komutlar/</a>
-#Can I develop commands without coding, simply using block patterns?
+## Can I develop commands without coding, simply using block patterns?
 Yes, you can find resources from the following page: 
 
 <a href="https://web.ceyd-a.com/2019/11/ceyd-a-ile-kurgu-gelistirmeleri/">https://web.ceyd-a.com/2019/11/ceyd-a-ile-kurgu-gelistirmeleri/</a>
-#Can I code my command samples using CEYD language without block patterns? 
+## Can I code my command samples using CEYD language without block patterns? 
 <a href="https://web.ceyd-a.com/2019/11/ceyd-a-ile-kurgu-gelistirmeleri/">https://web.ceyd-a.com/2018/09/komut-ekleme-nasil-yapilir/</a>
-#CEYD Structure
-##What is Command?
+# CEYD Structure
+## What is Command?
 
 We can define a command as a chain of question and its answers.
 
@@ -66,13 +67,13 @@ As CEYD language is free to use and develop, creating your own custom commands i
 Note that, after entering this site, English language selection is automatically chosen, otherwise you can also click on English link manually .
 After the new command is submitted, it is automatically loaded by the user’s device provided that CEYD-A on the device has the same login information.
 
-##STEP 1) Question Words
+## STEP 1) Question Words
 Question words can be used to help CEYD-A finds its correct command. The words in question words are matched in the sentence spoken. If spoken sentence contains the question word, the command is executed.
 
 Words or sentences are seperated by | sign like:
 Good morning|Hello|Hi
 
-##STEP 2) Question Patterns
+## STEP 2) Question Patterns
 
 This is not a required field. If used, it will define the parameters of the question. You can use regex to assign groups.
 
@@ -97,7 +98,7 @@ RESPONSE: Sum of {NUM1} and {NUM2} is {!EVAL {NUM1}+{NUM2}!}
 
  
 
-##STEP 3) Response/Add Dialog
+## STEP 3) Response/Add Dialog
 
 It is the response of the command. They must be seperated by | signs
 
@@ -143,10 +144,10 @@ $1 euro is {!EVAL {PAR1}*{!RET euro!}/{!RET dollar!}!} dollars
  
 5 euro is {!EVAL 5*{!RET euro!}/{!RET dollar!}!} dollars
 
-##STEP 4: Action/Add Action
+## STEP 4: Action/Add Action
 
 You can use this step if you want to add an alternative question sentence to a command already defined. Let’s say you will define a new command B which will behave the same as command A, then you can write command A in this area.
-#Information
+# Information
 These are simple APIs allowing consumers to view answers to the questions asked and CEYD codes to be executed. Questions are referred to commands
 
 ## Questions Collection [/jsonengine.jsp]
@@ -248,5 +249,5 @@ object containing a CEYD codes, username and token.
             }
 
 
-## Syntax Highlighting For NotePad++
+## Code Syntax Highlighting For NotePad++
 Put the ceyd.xml file into the \AppData\Roaming\Notepad++\userDefineLangs folder inside user directory.
