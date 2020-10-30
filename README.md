@@ -271,6 +271,9 @@ After you login this site, you must add this code to the RESPONSE field of your 
 ![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/chrome_XqpRlramm2.png)
 
 You can see the RESPONSE field inside the red rectangle. You must also fill in the Question word and Question Pattern for the command to be created properly.
-You can try the command using the sentence like 
+After updating the command, you can use it in your CEYD-A clients.
+You can use this command using sentence like 
 cmdenwikipedia book
-and you will see the definition of book from wikipedia. After updating the command, you can use it in your CEYD-A clients.
+and you will see the definition of book from wikipedia.
+
+You can test your updated commands at https://beta.ceyd-a.com
