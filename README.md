@@ -17,23 +17,23 @@ You may assume CEYD-A as a voice enabled semantic search engine which answers yo
 ### Sample usage of this API
 You can set the following POST parameters as
 
-  "username": "test",
+      "username": "test",
   
-  "token": "aaa28b4089101057d2b026adf9c68da1",
+      "token": "aaa28b4089101057d2b026adf9c68da1",
   
-  "code": "bayram ne zaman",
+      "code": "bayram ne zaman",
   
-  "type": "text",
+      "type": "text",
   
-  "lang": "tr-TR"
+      "lang": "tr-TR"
   
 When you call this service, you can expect the following response
 
-  "username": "test",
+      "username": "test",
   
-  "question": "bayram ne zaman",
+      "question": "bayram ne zaman",
   
-  "answer": "Zafer Bayramı 30 Ağustos 2017,Çarşamba"
+      "answer": "Zafer Bayramı 30 Ağustos 2017,Çarşamba"
   
 ### Is this service free ?
 You can use this service freely provided that your quota will not be exceeded. If you use this service for academic purposes, you may ask for free usage.
@@ -87,16 +87,16 @@ For instance, if you write,
 and you say to make the sum of 4 and 3, 4 and 3 will be treated as decimal groups. You can use these groups in the response area as {NUM1} and {NUM2}, In other words, groups behave like parameters for responses.
 Example 1:
 
-WORDS: make sum of
-PATTERN: {ANY}make sum of ({NUM1}) and ({NUM2}){ANY}
-RESPONSE:
-Do you want me to add {NUM1} to {NUM2}. I will.
+      WORDS: make sum of
+      PATTERN: {ANY}make sum of ({NUM1}) and ({NUM2}){ANY}
+      RESPONSE:
+      Do you want me to add {NUM1} to {NUM2}. I will.
 
 Example 2: (Modified version using CEYD functions inside answer)
 
-WORDS: make sum of
-PATTERN: {ANY}make sum of ({NUM1}) and ({NUM2}){ANY}
-RESPONSE: Sum of {NUM1} and {NUM2} is {!EVAL {NUM1}+{NUM2}!}
+      WORDS: make sum of
+      PATTERN: {ANY}make sum of ({NUM1}) and ({NUM2}){ANY}
+      RESPONSE: Sum of {NUM1} and {NUM2} is {!EVAL {NUM1}+{NUM2}!}
  
 
  
@@ -131,21 +131,21 @@ FOR is a control flow statement for specifying iteration, which allows code to b
 Some examples, provided that temperature and cloudy commands are created before:
 
 
-It is {!RET what is temperature} outside.|It is % {!RET is it cloudy!} percent cloudy outside.
+      It is {!RET what is temperature} outside.|It is % {!RET is it cloudy!} percent cloudy outside.
 
 Television means {!RET what is television} I guess.
 
-{!SET $temp={!RET what is temperature!}!}It is {!GET $temp!} degree.I think {!IF $temp<=18??it is cold::it is hot!}
+      {!SET $temp={!RET what is temperature!}!}It is {!GET $temp!} degree.I think {!IF $temp<=18??it is cold::it is hot!}
 
 To give a little more complicated example, let’s write a currency calculator.
 
-WORDS: dollars in euros,10
-PATTERN: how much ({PAR1}) (dollar|euro){ANY}
-RESPONSE:
-$1 euro is {!EVAL {PAR1}*{!RET euro!}/{!RET dollar!}!} dollars
+      WORDS: dollars in euros,10
+      PATTERN: how much ({PAR1}) (dollar|euro){ANY}
+      RESPONSE:
+      $1 euro is {!EVAL {PAR1}*{!RET euro!}/{!RET dollar!}!} dollars
  
  
-5 euro is {!EVAL 5*{!RET euro!}/{!RET dollar!}!} dollars
+      5 euro is {!EVAL 5*{!RET euro!}/{!RET dollar!}!} dollars
 
 ## STEP 4: Action/Add Action
 
