@@ -264,4 +264,5 @@ Put the [ceyd.xml](https://github.com/cenkersisman/CEYD-A/blob/master/ceyd.xml) 
 ![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/image_2020_10_30T14_39_54_411Z.png)
 
 Using Notepad ++, you can code fictions (commands) for CEYD-A with the syntax highlighting feature. You can easily check the brackets of IF THEN ELSE blocks and brackets of other functions (RET,SET,GET,FOR,EVAL). 
-The code will work for your command which you can enter on https://kodla.ceyd-a.com. It will be added to the ANSWER field. After the commands are entered, they will be reflected in your own environment, mobile, tv and web..
+The code will work for your command which you can enter on https://kodla.ceyd-a.com. 
+After you login this site, you must add this code to the ANSWER field of your new command. After the commands are updated, they will be reflected in your own environment, mobile, tv and web..
