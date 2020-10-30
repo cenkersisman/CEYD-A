@@ -89,17 +89,17 @@ For instance, if you write,
 and you say to make the sum of 4 and 3, 4 and 3 will be treated as decimal groups. You can use these groups in the response area as {NUM1} and {NUM2}, In other words, groups behave like parameters for responses.
 Example 1:
 ```
-      WORDS: make sum of
-      PATTERN: {ANY}make sum of ({NUM1}) and ({NUM2}){ANY}
-      RESPONSE:
-      Do you want me to add {NUM1} to {NUM2}. I will.
+WORDS: make sum of
+PATTERN: {ANY}make sum of ({NUM1}) and ({NUM2}){ANY}
+RESPONSE:
+Do you want me to add {NUM1} to {NUM2}. I will.
 ```
 
 Example 2: (Modified version using CEYD functions inside answer)
 ```
-      WORDS: make sum of
-      PATTERN: {ANY}make sum of ({NUM1}) and ({NUM2}){ANY}
-      RESPONSE: Sum of {NUM1} and {NUM2} is {!EVAL {NUM1}+{NUM2}!}
+WORDS: make sum of
+PATTERN: {ANY}make sum of ({NUM1}) and ({NUM2}){ANY}
+RESPONSE: Sum of {NUM1} and {NUM2} is {!EVAL {NUM1}+{NUM2}!}
 ``` 
 
  
