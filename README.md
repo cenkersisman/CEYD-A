@@ -17,24 +17,24 @@ You may assume CEYD-A as a voice enabled semantic search engine which answers yo
 ### Sample usage of this API
 You can set the following POST parameters as
 
-      "username": "test",
-  
-      "token": "aaa28b4089101057d2b026adf9c68da1",
-  
-      "code": "bayram ne zaman",
-  
-      "type": "text",
-  
-      "lang": "tr-TR"
+``` 
+"username": "test",
+"token": "aaa28b4089101057d2b026adf9c68da1",
+"code": "bayram ne zaman",
+"type": "text",
+"lang": "tr-TR"
+
+``` 
   
 When you call this service, you can expect the following response
 
-      "username": "test",
-  
-      "question": "bayram ne zaman",
-  
-      "answer": "Zafer Bayramı 30 Ağustos 2017,Çarşamba"
-  
+``` 
+"username": "test",
+"question": "bayram ne zaman",
+"answer": "Zafer Bayramı 30 Ağustos 2017,Çarşamba"
+``` 
+
+
 ### Is this service free ?
 You can use this service freely provided that your quota will not be exceeded. If you use this service for academic purposes, you may ask for free usage.
 
