@@ -1,6 +1,6 @@
 # CEYD-A
 
-#What is CEYD?
+# What is CEYD?
 CEYD language (Cenker.com Artificial Intelligence Language), is a scripting language which enables voice driven chat robot assistant to understand commands (questions) and answers them accordingly (answers)
 Users can write and develop this script language so that they can use the compiled script in various platform afterwards. 
 
