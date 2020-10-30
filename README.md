@@ -258,7 +258,7 @@ object containing a CEYD codes, username and token.
             }
 
 
-[link](#codehighlight)
+[](codehighlight)
 ## Code Syntax Highlighting For NotePad++
 Put the [ceyd.xml](https://github.com/cenkersisman/CEYD-A/blob/master/ceyd.xml) file into the %UserProfile%\AppData\Roaming\Notepad++\userDefineLangs folder for Windows System
 
