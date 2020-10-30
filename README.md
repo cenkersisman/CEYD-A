@@ -266,4 +266,11 @@ Put the [ceyd.xml](https://github.com/cenkersisman/CEYD-A/blob/master/ceyd.xml) 
 
 Using Notepad ++, you can code fictions (commands) for CEYD-A with the syntax highlighting feature. You can easily check the brackets of IF THEN ELSE blocks and brackets of other functions (RET,SET,GET,FOR,EVAL). 
 The code will work for your command which you can enter on https://kodla.ceyd-a.com. 
-After you login this site, you must add this code to the ANSWER field of your new command. After the commands are updated, they will be reflected in your own environment, mobile, tv and web..
+After you login this site, you must add this code to the RESPONSE field of your new command. After the commands are updated, they will be reflected in your own environment, mobile, tv and web..
+
+![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/chrome_XqpRlramm2.png)
+
+You can see the RESPONSE field inside the red rectangle. You must also fill in the Question word and Question Pattern for the command to be created properly.
+You can try the command using the sentence like 
+cmdenwikipedia book
+and you will see the definition of book from wikipedia. After updating the command, you can use it in your CEYD-A clients.
