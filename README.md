@@ -1,3 +1,6 @@
+FORMAT: 1A
+HOST: https://beta.ceyd-a.com/
+
 # CEYD-A
 
 # What is CEYD?
@@ -52,9 +55,9 @@ This example shows how to fetch json data from remote server using CEYD language
 ## Can I develop commands without coding, simply using block patterns?
 Yes, you can find resources from the following page: 
 
-<a href="https://web.ceyd-a.com/2019/11/ceyd-a-ile-kurgu-gelistirmeleri/">https://web.ceyd-a.com/2019/11/ceyd-a-ile-kurgu-gelistirmeleri/</a>
+<a href="https://en.ceyd-a.com/2019/11/ceyd-a-ile-kurgu-gelistirmeleri/">https://en.ceyd-a.com/2019/11/ceyd-a-ile-kurgu-gelistirmeleri/</a>
 ## Can I code my command samples using CEYD language without block patterns? 
-<a href="https://web.ceyd-a.com/2019/11/ceyd-a-ile-kurgu-gelistirmeleri/">https://web.ceyd-a.com/2018/09/komut-ekleme-nasil-yapilir/</a>
+<a href="https://en.ceyd-a.com/2019/11/ceyd-a-ile-kurgu-gelistirmeleri/">https://en.ceyd-a.com/2018/09/komut-ekleme-nasil-yapilir/</a>
 # CEYD Structure
 ## What is Command?
 
@@ -235,7 +238,7 @@ object containing a CEYD codes, username and token.
 + Response 201 (application/json)
 
     + Headers
-
+    
             Location: /jsonengine.jsp
 
     + Body
