@@ -1,8 +1,8 @@
-CEYD-A 
+# CEYD-A 
 
 INTRODUCTION
 
-What is CEYD?
+## What is CEYD?
 
 CEYD language (Cenker.com Artificial Intelligence Language), is a scripting language which enables voice driven chat robot assistant to understand commands (questions) and answers them accordingly (answers) Users can write and develop this script language so that they can use the compiled script in various platform afterwards.CEYD language functions are written inside pure text formatted answers and these functions determine how robot should respond to the question. Writing CEYD functions inside answers is not required. They are used for functionality and productivity of the answer.
 
@@ -117,3 +117,6 @@ The answer will be formed and will be reflected on the screen and also will be s
 STEP 4: Action/Add Action 
 
 You can use this step if you want to add an alternative question sentence to a command already defined. Let’s say you will define a new command B which will behave the same as command A, then you can write command A in this area.
+
+## Syntax Highlighting For NotePad++
+Put the ceyd.xml file into the \AppData\Roaming\Notepad++\userDefineLangs folder inside user directory.
