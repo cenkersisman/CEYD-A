@@ -156,9 +156,6 @@ $1 euro is {!EVAL {PAR1}*{!RET euro!}/{!RET dollar!}!} dollars
 5 euro is {!EVAL 5*{!RET euro!}/{!RET dollar!}!} dollars
 ```
 
-## STEP 4: Action/Add Action
-
-You can use this step if you want to add an alternative question sentence to a command already defined. Let’s say you will define a new command B which will behave the same as command A, then you can write command A in this area.
 # Information
 These are simple APIs allowing consumers to view answers to the questions asked and CEYD codes to be executed. Questions are referred to commands
 
@@ -262,4 +259,4 @@ object containing a CEYD codes, username and token.
 
 
 ## Code Syntax Highlighting For NotePad++
-Put the ceyd.xml file into the \AppData\Roaming\Notepad++\userDefineLangs folder inside user directory.
+Put the [ceyd.xml](https://github.com/cenkersisman/CEYD-A/blob/master/ceyd.xml) file into the %UserProfile%\AppData\Roaming\Notepad++\userDefineLangs folder for Windows System
