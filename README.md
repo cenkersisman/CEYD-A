@@ -166,6 +166,11 @@ $1 euro is {!EVAL {PAR1}*{!RET euro!}/{!RET dollar!}!} dollars
 ```
 5 euro is {!EVAL 5*{!RET euro!}/{!RET dollar!}!} dollars
 ```
+As we know, the question is in regex format template. The pattern is separated by () groups, they are referred to as the response parameters $1 $2 so on. The $1 in the answer corresponds to ({PAR1}) group in the pattern. So when <b>how much 5 euros in dollars?</b> is spelt
+({PAR1}) is the first group. The second group is dollar or euro.
+The answer template will be finally transformed into something like
+5 dollars is 4.59 Euros.
+The answer will be formed and will be reflected on the screen and also will be spoken by CEYD-A.
 
 # Information
 These are simple APIs allowing consumers to view answers to the questions asked and CEYD codes to be executed. Questions are referred to commands
