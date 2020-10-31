@@ -72,7 +72,7 @@ Yes, you can find resources from the following page:
 
 We can define a command as a chain of question and its answers.
 
-![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/fiction.png)
+![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/images/fiction.png)
 
 Commands can be defined at:
 <a href=https://kodla.ceyd-a.com>https://kodla.ceyd-a.com</a>
@@ -278,13 +278,13 @@ object containing a CEYD codes, username and token.
 ## Code Syntax Highlighting For NotePad++
 Put the [ceyd.xml](https://github.com/cenkersisman/CEYD-A/blob/master/ceyd.xml) file into the %UserProfile%\AppData\Roaming\Notepad++\userDefineLangs folder for Windows System
 
-![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/image_2020_10_30T14_39_54_411Z.png)
+![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/images/image_2020_10_30T14_39_54_411Z.png)
 
 Using Notepad ++, you can code fictions (commands) for CEYD-A with the syntax highlighting feature. You can easily check the brackets of IF THEN ELSE blocks and brackets of other functions (RET,SET,GET,FOR,EVAL). 
 The code will work for your command which you can enter on https://kodla.ceyd-a.com. 
 After you login this site, you must add this code to the RESPONSE field of your new command. After the commands are updated, they will be reflected in your own environment, mobile, tv and web..
 
-![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/chrome_XqpRlramm2.png)
+![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/images/chrome_XqpRlramm2.png)
 
 You can see the RESPONSE field inside the red rectangle. You must also fill in the Question word and Question Pattern for the command to be created properly.
 After updating the command, you can use it in your CEYD-A clients.
@@ -294,5 +294,5 @@ and you will see the definition of book from wikipedia.
 
 You can test your updated commands at https://beta.ceyd-a.com
 
-![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/cmdenwikipedia_test.png?raw=true)
+![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/images/cmdenwikipedia_test.png?raw=true)
 
