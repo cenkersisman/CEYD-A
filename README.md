@@ -304,3 +304,8 @@ You can test your updated commands at https://beta.ceyd-a.com
 
 ![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/images/cmdenwikipedia_test.png?raw=true)
 
+## Telegram Bot
+You can use this Python code below to create a Telegram bot. You must change the required fields in the code. 
+That way, people can talk to your bot like chatting with another person. I would like you to inform me after creating the bot.
+[ceyd-a_telegrambot.py](https://github.com/cenkersisman/CEYD-A/blob/master/ceyd-a_telegrambot.py)
+
