@@ -10,8 +10,16 @@ CEYD language functions are written inside pure text formatted answers and these
 
 # What is CEYD-A
 CEYD-A is the official assistant of CEYD language. It is currently supported in the Android platform and can be downloaded from Google Play Store. It has more than 4 million users in Turkey and will spread worldwide soon
-
 English version of CEYD-A is also available and can be downloaded from https://play.google.com/store/apps/details?id=com.cenker.ceydasistan.app.en&hl=en_US
+
+<b>Features:</b>
+* It is a voice assistant that can be developed by users.
+* Unlike other digital assistants, it performs what you say on the device.
+* It has its own interpreter, its own development language.
+* The commands you develop are accumulated in the pool, when approved, all CEYD-As benefit from them.
+* It does not send your private information to the server, but keeps it in the database on your own device. The server is only for updating the command repository.
+* As it works on the device, the performance is directly proportional to the speed of the device.
+* Since it works on the device, it can work without the need for internet except for voice detection.
 
 # For Developers
 ## Webservice API
