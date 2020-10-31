@@ -71,7 +71,9 @@ Yes, you can find resources from the following page:
 ## What is Command?
 
 We can define a command as a chain of question and its answers.
+
 ![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/fiction.png)
+
 Commands can be defined at:
 <a href=https://kodla.ceyd-a.com>https://kodla.ceyd-a.com</a>
 
