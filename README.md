@@ -4,17 +4,21 @@ HOST: https://beta.ceyd-a.com/
 # CEYD-A
 
 # What is CEYD?
-CEYD language (Cenker.com Artificial Intelligence Language), is a scripting language which enables voice driven chat robot assistant to understand commands (questions) and answers them accordingly (answers)
-Users can write and develop this script language so that they can use the compiled script in various platform afterwards. 
+CEYD language (Cenker.com Artificial Intelligence Language), is a scripting language which enables voice-driven chat robot assistant to understand commands (questions) and answers them accordingly (response) Users can write and develop this scripting language so that they can use the compiled script in various platform afterwards.
 
-CEYD language functions are written inside pure text formatted answers and these functions determine how robot should respond to the question. CEYD functions are not required to be included in the answer.  They are used for functionality and productivity of the answer.
+CEYD language functions are written inside pure text formatted answers and these functions determine how a robot or chatbot should respond to the question. Writing CEYD functions inside answers is not required. They are used for functionality and productivity of the answer.
+
 # What is CEYD-A
-CEYD-A is the official assistant of CEYD language. It is currently supported in Android platform and can be downloaded from Google Play Store. It has more than <b>2.2 million users in Turkey</b> and will spread worldwide soon
+CEYD-A is the official assistant of CEYD language. It is currently supported in the Android platform and can be downloaded from Google Play Store. It has more than 4 million users in Turkey and will spread worldwide soon
+
+English version of CEYD-A is also available and can be downloaded from https://play.google.com/store/apps/details?id=com.cenker.ceydasistan.app.en&hl=en_US
+
 # For Developers
 ## Webservice API
 As of August 2017, CEYD-A contains more than <b>300.000 commands</b> created by <b>200.000 developers</b>. These developers generally create commands orally using CEYD-A application. Commands can also be created in written form for more complicated usage. 
 You may assume CEYD-A as a voice enabled semantic search engine which answers your questions. So the use of this API, is to get the answer of your question.
 ### Sample usage of this API
+API URL is at https://beta.ceyd-a.com/jsonengine.jsp
 You can set the following POST parameters as
 
 ``` 
@@ -40,7 +44,10 @@ You can use this service freely provided that your quota will not be exceeded. I
 
 ### What is my token for my account ?
 Please login <a href="https://beta.ceyd-a.com/">https://beta.ceyd-a.com/</a> . After login, you will see your username and token info as well as your current quota.
-Your login information is the same as your CEYD-A account. You can take free support from https://ceyd-a.net/
+Your login information is the same as your CEYD-A account. You can take free support from https://en.ceyd-a.com
+## Offline Library
+For offline usage, you may use CEYD Java library in your code project. CEYD Java library is referenced at: [Using CEYD-A Services in Java Projects](https://en.ceyd-a.com/en/2020/08/java-projelerinde-ceyd-a-hizmetlerini-kullanmak/)
+
 ## How can I create my own custom commands ?
 Commands can be created freely at:
 
@@ -59,10 +66,12 @@ Yes, you can find resources from the following page:
 ## Can I code my command samples using CEYD language without block patterns? 
 <a href="https://en.ceyd-a.com/2019/11/ceyd-a-ile-kurgu-gelistirmeleri/">https://en.ceyd-a.com/2018/09/komut-ekleme-nasil-yapilir/</a>
 # CEYD Structure
+
+
 ## What is Command?
 
 We can define a command as a chain of question and its answers.
-
+![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/fiction.png)
 Commands can be defined at:
 <a href=https://kodla.ceyd-a.com>https://kodla.ceyd-a.com</a>
 
