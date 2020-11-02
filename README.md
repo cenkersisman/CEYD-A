@@ -297,6 +297,7 @@ After you login this site, you must add this code to the RESPONSE field of your 
 You can see the RESPONSE field inside the red rectangle. You must also fill in the Question word and Question Pattern for the command to be created properly.
 
 ![ceyd editor](https://github.com/cenkersisman/CEYD-A/blob/master/images/chrome_XoL3m607d6.png)
+
 Also, you can select any lines and test its response before updating.
 
 After updating the command, you can use it in your CEYD-A clients.
