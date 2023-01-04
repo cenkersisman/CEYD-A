@@ -314,3 +314,7 @@ You can use this Python code below to create a Telegram bot. You must change the
 That way, people can talk to your bot like chatting with another person. I would like you to inform me after creating the bot.
 [ceyd-a_telegrambot.py](https://github.com/cenkersisman/CEYD-A/blob/master/ceyd-a_telegrambot.py)
 
+## CEYD-A Proxy
+With this application running on Windows, you can communicate with your Windows computer via bluetooth from CEYD-A installed on your Android device. CEYD-A will be able to send codes and files to be processed on Windows and receive the results again via bluetooth.
+
+The exe application is the executable version of the Java jar file. Once it's running, you should be able to see the CEYD-A logo in the Windows system tray. This means that you can now get Windows to work through CEYD-A.
