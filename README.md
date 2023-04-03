@@ -10,7 +10,8 @@ CEYD language functions are written inside pure text formatted answers and these
 
 # What is CEYD-A
 CEYD-A is the official assistant of CEYD language. It is currently supported in the Android platform and can be downloaded from Google Play Store. It has more than 4 million users in Turkey and will spread worldwide soon
-English version of CEYD-A is also available and can be downloaded from https://play.google.com/store/apps/details?id=com.cenker.ceydasistan.app.en&hl=en_US
+Turkish version of CEYD-A is also available and can be downloaded from https://play.google.com/store/apps/details?id=com.cenker.yardimci.app&hl=tr&gl=US
+You can find more details at https://ceyd-a.com
 
 <b>Features:</b>
 * It is a voice assistant that can be developed by users.
